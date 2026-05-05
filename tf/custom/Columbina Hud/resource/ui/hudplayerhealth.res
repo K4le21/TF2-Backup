@@ -47,16 +47,58 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"43"
-		"ypos"			"46"
-		"zpos"			"-4"
-		"wide"			"66"
-		"tall"			"66"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
+		"xpos"			"9999"
 	}
+	
+	"bina"
+	{
+		"ControlName"	         				 	"ImagePanel"
+		"fieldName"		         				 	"bina"
+		"xpos"	    								"0"
+		"ypos"	        							"0"	
+		"zpos"			         				 	"-4"
+		"wide"			         				 	"150"
+		"tall"			         				 	"150"
+		"visible"		         				 	"1"
+		"enabled"		         				 	"1"
+		"image"			         				 	"replay/thumbnails/bina"
+		"scaleImage"	         				 	"1"
+		"alpha"	         				 			"0"
+	}
+	
+		"bina2"
+	{
+		"ControlName"	         				 	"ImagePanel"
+		"fieldName"		         				 	"bina2"
+		"xpos"	    								"-8"
+		"ypos"	        							"10"	
+		"zpos"			         				 	"-4"
+		"wide"			         				 	"150"
+		"tall"			         				 	"150"
+		"visible"		         				 	"1"
+		"enabled"		         				 	"1"
+		"image"			         				 	"replay/thumbnails/bina_low"
+		"scaleImage"	         				 	"1"
+		"alpha"	         				 			"0"
+	}	
+									
+	"bina3"
+	{
+		"ControlName"	         				 	"ImagePanel"
+		"fieldName"		         				 	"bina3"
+		"xpos"	    								"0"
+		"ypos"	        							"15"	
+		"zpos"			         				 	"-4"
+		"wide"			         				 	"150"
+		"tall"			         				 	"150"
+		"visible"		         				 	"1"
+		"enabled"		         				 	"1"
+		"image"			         				 	"replay/thumbnails/bina_mid"
+		"scaleImage"	         				 	"1"
+		"alpha"	         				 			"150"
+	}
+	
+	
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	    "CExLabel"
